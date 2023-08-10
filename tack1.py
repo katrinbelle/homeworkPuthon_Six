@@ -2,9 +2,7 @@
 # n-го члена прогрессии: an = a1 + (n-1) * d.
 # Каждое число вводится с новой строки.
 arithmeticProgression=[]
-# arithmeticProgression.append(int(input("Введите первое число-> ")))
-# arithmeticProgression.append(int(input("Введите разность чисел> ")))
-# arithmeticProgression.append(int(input("Введите количество чисел-> ")))
+
 for i in range(3):
     if i==1: messenge="разность чисел "
     elif i==2: messenge="количество чисел"
